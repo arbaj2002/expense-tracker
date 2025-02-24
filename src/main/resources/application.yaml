@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: expense-tracker
+  data:
+    mongodb:
+      uri: mongodb+srv://ArbajMomin:Arbaj%402002@cluster0.p91u0.mongodb.net/mydatabase?retryWrites=true&w=majority&appName=Cluster0
+
+server:
+  port: 9090
