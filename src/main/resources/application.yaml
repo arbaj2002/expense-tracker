@@ -3,7 +3,11 @@ spring:
     name: expense-tracker
   data:
     mongodb:
-      uri: mongodb+srv://ArbajMomin:Arbaj%402002@cluster0.p91u0.mongodb.net/mydatabase?retryWrites=true&w=majority&appName=Cluster0
+      uri: mongodb+srv://ArbajMomin:Arbaj123@cluster0.p91u0.mongodb.net/expense-manager-db?retryWrites=true&w=majority&appName=Cluster0
 
 server:
-  port: 9090
+  port: 8084
+
+jwt:
+  secret:
+    key: b2d5f8a9c3e7g1h4j6k8m0p2q5r7t9v3x1z4a6c8e0g2h5
