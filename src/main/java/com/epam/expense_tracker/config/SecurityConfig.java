@@ -39,7 +39,7 @@ public class SecurityConfig {
         http
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(requests -> {
-                                    requests.requestMatchers( "expense-tracker/users/login","expense-tracker/users/register", "expense-tracker/users/email/{email}", "expense-tracker/expense" ).permitAll();
+                                    requests.requestMatchers( "expense-tracker/users/login","expense-tracker/users/register", "expense-tracker/expense" ).permitAll();
                                     requests.anyRequest().authenticated();
                         }
                 )
