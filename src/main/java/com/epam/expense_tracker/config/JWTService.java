@@ -19,7 +19,7 @@ public class JWTService {
     @Value("${jwt.secret.key}")
     private String secretKey;
 
-    private static final long EXPIRATION_TIME = 1000 * 60 * 3;
+    private static final long EXPIRATION_TIME = 1000 * 60 * 5;
 
     public String generateToken(String username) {
         Map<String, Object> claims = new HashMap<>();
